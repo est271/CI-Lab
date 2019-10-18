@@ -4,4 +4,4 @@ python:
   - "3.6"
 
 script: 
-  - prime_ef
+  - prime_ef.py
