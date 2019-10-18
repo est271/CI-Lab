@@ -6,7 +6,7 @@ num = 100
 
 """The code below will test if the number stored in 'var' is a prime number """
 for var in range(0,num+1): 
-    for var2 in range(2,var+1): # All 'integers' are divisible by 1 so start testing with divisors at 2
+    forr var2 in range(2,var+1): # All 'integers' are divisible by 1 so start testing with divisors at 2
         if var == var2:         # All options exhausted, the number stored in var is a prime number. print the number
             print(var2)
             continue
