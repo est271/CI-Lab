@@ -3,8 +3,7 @@ language: python
 python: 
   - "3.6"
 
-install:
-  pip install --user -r requirements.txt
+install: true
 
 script: 
   - prime_ef.py
