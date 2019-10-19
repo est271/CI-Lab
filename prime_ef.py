@@ -11,7 +11,6 @@ def find_prime(num):
 	if num <= 1:
 		raise ValueError("number must be greater than 1")
 
-	print("........................................")
 	# The code below will test if every iteration of 'var' is a prime number
 	for var in range(0,num+1):
 	    for var2 in range(2,var+1): # All 'integers' are divisible by 1 so start testing with divisors at 2
