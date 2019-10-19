@@ -3,4 +3,5 @@ language: python
 python: 
   - "3.6"
 
-script: 'true'
+script:
+  - python test_prime_function.py
