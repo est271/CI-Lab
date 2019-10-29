@@ -16,7 +16,8 @@ def find_prime(num):
         for var2 in range(2, var+1): # All 'integers' are divisible by 1 so start testing with divisors at 2
             if var == var2:         # All options exhausted, the number stored in var is a prime number. print the number
                 print(var2)
-            elif (var % var2):      # ex. (5/2= 2 remainder 1 or 2.5) might be a prime number. continue testing
+            elif  var % var2:      # ex. (5/2= 2 remainder 1 or 2.5) might be a prime number. continue testing
                 continue
             else:                   # ex. (4/2= 2 no remainder) Not a prime number, break from loop & test next number
                 break
+    return 0    #Indicate successful completion of function
