@@ -10,7 +10,7 @@ install:
 
 script:
   - python test_prime_function.py
-  - pytest --cov=./test_prime_function.py
+  - pytest --cov=test_prime_function.py
 
 after_success:
   - coveralls
