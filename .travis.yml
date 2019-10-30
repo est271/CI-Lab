@@ -3,5 +3,14 @@ language: python
 python: 
   - "3.6"
 
+install:
+  -pip install pytest
+  -pip install pytest-cov
+  -pip install coveralls
+
 script:
   - python test_prime_function.py
+  - pytest --cov=./test_prime_function.py
+
+after_success:
+  - coveralls
