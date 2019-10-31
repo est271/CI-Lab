@@ -9,7 +9,7 @@ install:
   - pip install coveralls
 
 script:
-  - python test_prime_function.py
+  - python -m unittest discover
   - pytest --cov=test_prime_function
 
 after_success:
