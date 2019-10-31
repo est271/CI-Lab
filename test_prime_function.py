@@ -31,5 +31,6 @@ class PrimeTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             find_prime(-10)
 
+print(__name__)
 if __name__ == '__main__':
     unittest.main()
