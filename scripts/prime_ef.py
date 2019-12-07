@@ -13,8 +13,8 @@ def find_prime(num):
         raise ValueError("number must be greater than 1")
 
     # The code below will test if every iteration of 'var' is a prime number
-    for var in range(0, num+1):
-        for var2 in range(2, var+1):
+    for var in range(0, num + 1):
+        for var2 in range(2, var + 1):
             if var == var2:
                 print(var2)
             elif var % var2:
