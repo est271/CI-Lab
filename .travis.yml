@@ -10,9 +10,9 @@ install:
   - pip install coveralls
 
 script:
+  - flake8 --ignore=W391
   - python -m unittest discover
   - pytest --cov=test/
-  - flake8 --ignore=W391
 
 after_success:
   - coveralls
