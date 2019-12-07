@@ -12,7 +12,7 @@ install:
 script:
   - python -m unittest discover
   - pytest --cov=test/
-  - flake8
+  - flake8 --ignore=W391
 
 after_success:
   - coveralls
