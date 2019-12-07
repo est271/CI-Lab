@@ -1,6 +1,10 @@
 """Unittest for the prime_ef function"""
 
 import unittest
+import sys
+
+sys.path.append('..')
+
 from prime_ef import find_prime
 
 class PrimeTest(unittest.TestCase):
