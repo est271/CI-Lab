@@ -10,7 +10,7 @@ install:
 
 script:
   - python -m unittest discover
-  - pytest --cov=Prime_CI test/
+  - pytest --cov=test/
 
 after_success:
   - coveralls
