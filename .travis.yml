@@ -8,12 +8,9 @@ install:
   - pip install pytest-cov
   - pip install coveralls
 
-before install:
-  - cd test
-
 script:
-  - python -m unittest discover test
-  - pytest --cov=test_prime_function
+  - python -m unittest discover
+  - pytest --cov=Prime_CI test/
 
 after_success:
   - coveralls
