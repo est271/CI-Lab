@@ -1,4 +1,5 @@
 - [ ] fixes issue #xxx
-- [ ] .py files pass pylint locally (ignore 'line to long' warning)
+- [ ] passed flake8 test
+- [ ] passed unittest
 
 ## Description:
