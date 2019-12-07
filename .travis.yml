@@ -6,11 +6,13 @@ python:
 install:
   - pip install pytest
   - pip install pytest-cov
+  - pip install pytest-flake8
   - pip install coveralls
 
 script:
   - python -m unittest discover
-  - pytest --cov=Prime_CI test/
+  - pytest --cov=test/
+  - flake8 --ignore=W391
 
 after_success:
   - coveralls
