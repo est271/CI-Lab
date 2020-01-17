@@ -1,7 +1,7 @@
 """Prints prime numbers from 2 up to the number 'num' """
 
 # prime numbers are divisible only by 1 and itself.
-
+# implement Sieve of Eratosthenes algorithm
 
 def find_prime(num):
     """This function will print all the prime numbers up to the input 'num' """
