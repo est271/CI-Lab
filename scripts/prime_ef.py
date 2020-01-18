@@ -1,7 +1,7 @@
 """Prints prime numbers from 2 up to the number 'num' """
 
 # prime numbers are divisible only by 1 and itself.
-# implement Sieve of Eratosthenes algorithm
+# implement Sieve of Eratosthenes algorithm (divide only by prime nubers in pri_num)
 
 
 def find_prime(num):
@@ -19,13 +19,14 @@ def find_prime(num):
     for var in range(2, num + 1):
         res = 0
         for var2 in pri_num:
-            if var == var2:
-                res = var
-            elif var % var2:
-                continue
-            else:
+            if var == 2:
                 break
-        pri_num.append(res)
+            elif (var % var2) == 0:
+                break
+            elif (var2 == pri_num[-1]):
+                res = var
+        if res:
+            pri_num.append(res)
     print(pri_num)
 
     return 0
