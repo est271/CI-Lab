@@ -2,6 +2,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/est271/Prime_CI/badge.svg?branch=master)](https://coveralls.io/github/est271/Prime_CI?branch=master)
 
 # Prime_CI
-This repo will be used to test the integration with Travis CI & Coveralls.io
+This repo will be used to setup and test continuous integration tools
 
 also the python script is used to print out prime numbers 
