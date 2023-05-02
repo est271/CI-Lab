@@ -39,4 +39,5 @@ jobs:
         python -m unittest discover
     - name: Run code coverage
       run: |
-        coverage run --source=./test test_prime_function.py
+        coverage run --source=/test test_prime_function.py
+        coverage run --source=test test_prime_function.py
