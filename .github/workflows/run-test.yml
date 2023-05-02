@@ -38,4 +38,4 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest pytest-cov
-        pytest test/ --cov-report term --cov=ci_lab
+        pytest test/
