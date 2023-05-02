@@ -39,4 +39,4 @@ jobs:
         python -m unittest discover
     - name: Run code coverage
       run: |
-        coverage run -m --source=test/
+        coverage run -m test/
