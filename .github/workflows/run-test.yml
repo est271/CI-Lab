@@ -36,8 +36,4 @@ jobs:
         flake8 . --ignore=W391, 
     - name: Test with unittest
       run: |
-        python -m unittest discover
-    - name: Run code coverage
-      run: |
-        coverage run --source=/test
-        coverage run --source=test
+        coverage run -m unittest discover
