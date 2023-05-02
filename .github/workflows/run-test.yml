@@ -35,7 +35,7 @@ jobs:
         flake8 . --ignore=W391, 
     - name: Run unittest with code coverage
       run: |
-        coverage run -m unittest discover
+        c
     - name: Show coverage report
       run: |
         coverage report -m
